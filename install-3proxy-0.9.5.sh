@@ -26,7 +26,7 @@ curl -sL https://github.com/z3APA3A/3proxy/archive/refs/tags/0.9.5.tar.gz | bsdt
 cd 3proxy-0.9.5
 make -f Makefile.Linux
 mkdir -p /usr/local/etc/3proxy/{bin,logs,stat}
-cp src/3proxy /usr/local/etc/3proxy/bin/
+cp bin/3proxy /usr/local/etc/3proxy/bin/
 cd ..
 rm -rf 3proxy-0.9.5
 
